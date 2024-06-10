@@ -8,11 +8,11 @@ body{
     height: 100vh;
     font-family: "roboto", sans-serif;
     min-width: 650px;
-    background-image: url("background-main2.jpg");
+    background-image: url("./imagens/background-main2.jpg");
     background-size: cover;
 }
 .header-list{
-background-image:url("background-papel-manchado.jpg");
+background-image:url("./imagens/background-papel-manchado.jpg");
 background-size: cover;
 height: 150px;
 width: 100%;
