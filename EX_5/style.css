@@ -1,0 +1,57 @@
+/* Estilos para a página */
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right,#dd6c2a9a,#180addbd); /* Gradiente linear */
+    margin: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #101cbeb7, #d4760ace); /* Gradiente linear */    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #d4760ace,#101cbeb7); /* Gradiente linear */
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 0;
+    
+}
+
+#listaTarefas li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background: linear-gradient(to right, #101cbeb7, #d4760ace); /* Gradiente linear */
+    color: whitesmoke;
+}
+
+#listaTarefas li.feito {
+    text-decoration: line-through;
+}
